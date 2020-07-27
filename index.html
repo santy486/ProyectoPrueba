@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ansaloPuzzle</title>
+    <link rel="stylesheet" href="css/puzzle.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top fon">
+          <a class="navbar-brand" href="#"><img height="60" width="210" src="im/puzz.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active l">
+                <a class="nav-link" href="index.html">Puzzle Ánsalo<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mas juegos</a>
+              </li>
+            </ul>
+            <div class="form-inline mt-2 mt-md-0">
+                <br>
+                 <button id="login" class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresar nombre</button>
+                 <button id="salir" class="btn btn-outline-success my-2 my-sm-0" type="submit">Cerrar sesión</button>
+                 <button id="registrar" class="btn btn-outline-success my-2 my-sm-0" type="submit">Registra tu nombre</button>
+               </div>
+          </div>
+        </nav>
+      </header>
+      <br>
+      <br>
+      <br>
+      <h2 class="la" id="usuar">Puzzle</h2>
+    <h2 class="li">Letras</h2>
+    <div  class="lu" id="letras"></div>
+    <h2 class="li">Números</h2>
+    <div class="lu" id="numeros"></div>
+    <br>
+    <br>
+    <table class="lol">
+        <tr>
+            <td><button class="buttonpuz" id="a1">A-1</button></td>
+            <td><button class="buttonpuz" id="b2">B-2</button></td>
+            <td><button class="buttonpuz" id="c3">C-3</button></td>
+        </tr>
+        <tr>
+            <td><button class="buttonpuz" id="d4">D-4</button></td>
+            <td><button class="buttonpuz" id="e5">E-5</button></td>
+            <td><button class="buttonpuz" id="f6">F-6</button></td>
+        </tr>
+        <tr>
+            <td><button class="buttonpuz" id="g7">G-7</button></td>
+            <td><button class="buttonpuz" id="h8">H-8</button></td>
+            <td><button class="buttonpuz" id="i9">I-9</button></td>
+        </tr>
+    </table>
+    <h2 class="lili" ><a class="po" href="index.html">Volver a iniciar</a></h2>
+    <br>
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/ansalo.js"></script>
+    <script src="js/storage.js"></script>
+</body>
+
+</html>

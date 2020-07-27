@@ -1,0 +1,68 @@
+body {
+    background-image: url(../im/puzz.jpg);
+    text-align: center;
+}
+.lo {
+    font-size: 60px;
+    font-family: cursive;
+    color: aquamarine;
+    text-align: center;
+}
+.lol {
+    margin: auto;
+}
+.li {
+    color: yellowgreen;
+    font-size: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+.buttonpuz {
+    background-color: black;
+    color: wheat;
+    font-size: 60px;
+    font-family: cursive;
+    border-radius: 15px;
+    border: white;
+}
+.lu{
+        color: black;
+        font-size: 40px;
+        font-family: cursive;
+        text-align: center;
+    }
+.la{
+    font-size: 60px;
+    font-family: cursive;
+    color: aquamarine;
+    text-align: center;
+}
+.le{
+    background-color: black;
+    color: yellowgreen;
+    font-size: 50px;
+    font-family: cursive;
+    border-radius: 15px;
+    border: white;
+    margin: auto;
+}
+.lulu{
+    background-color: transparent;
+    color: wheat;
+    font-size: 60px;
+    font-family: cursive;
+    border-radius: 15px;
+    border: white;
+}
+.lili{
+    color: aquamarine;
+    text-align: center;
+    background-color: transparent;
+    font-size: 50px;
+    font-family: cursive;
+    border-radius: 15px;
+    border: white;
+}
+.po{
+    color: aquamarine; 
+}
